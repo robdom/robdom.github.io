@@ -29,6 +29,16 @@
         height: 36px;
       }
 
+      .soc-list {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      .soc-list > li {
+        display: inline-block;
+      }
+
       /* BIO STYLES */
       .bio-wrapper {
         font-size: 24px;
@@ -39,11 +49,15 @@
         box-sizing: border-box;
         float: left;
         font-size: 1rem;
+        margin: 40px 1% 0;
         padding: 2%;
-        width: 25%;
+        width: 23%;
       }
       .bio-box h3 {
+        color: #fff;
         font-size: 1.5em;
+        margin: -40px 0 1em;
+        text-align: center;
       }
       .bio-copy {
         font-size: 1em;
@@ -51,17 +65,20 @@
       .bio-copy a {
         color: #008000;
       }
+      .bio-box img {
+        width: 100%;
+      }
     </style>
   </head>
   <body>
     <div class="full-hero hero-home">
       <h1>I'm an h1</h1>
-      <ul>
+      <ul class="soc-list">
         <li>
           <a href="https://example.com/" class="social">Link</a>
         </li>
         <li>
-          <a href="https://example.com/" class="social show">Link</a>
+          <a href="https://example.com/" class="social">Link</a>
         </li>
         <li>
           <a href="https://example.com/" class="social">Link</a>
@@ -73,6 +90,7 @@
 
     <div class="bio-wrapper">
       <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
         <h3>Michael Hartl</h3>
         <a href="https://twitter.com/mhartl" class="social">here</a>
         <div class="bio-copy">
@@ -83,6 +101,7 @@
       </div>
 
       <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
         <h3>Lee Donahoe</h3>
         <a href="https://twitter.com/leedonahoe" class="social">here</a>
         <div class="bio-copy">
@@ -92,6 +111,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
         <h3>Nick Merwin</h3>
         <a href="https://twitter.com/nickmerwin" class="social">here</a>
         <div class="bio-copy">
@@ -101,6 +121,7 @@
         </div>
       </div>
       <div class="bio-box">
+        <img src="https://placekitten.com/g/400/400">
         <h3>??</h3>
         <p>
           The Future
